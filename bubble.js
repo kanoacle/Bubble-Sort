@@ -20,7 +20,7 @@ module.exports = function (array) {
             }
           }
         } while (swap === true);
-        return array;
       }
     }
+    return array;
 };

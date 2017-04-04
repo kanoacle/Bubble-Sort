@@ -15,5 +15,6 @@ describe('bubble', () => {
   });
   it('should sort the array by numeric value', () => {
     expect(bubble([9, 7, 4, 2, 7, 5, 8])).to.deep.equal([2, 4, 5, 7, 7, 8, 9]);
+    expect(bubble([6, 18, 6, 34, 2, 6, 9, 56, 12])).to.deep.equal([2, 6, 6, 6, 9, 12, 18, 34, 56]);
   });
 });
