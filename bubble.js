@@ -1,18 +1,26 @@
 /*jshint esversion: 6*/
 
 module.exports = function (array) {
-  newArray = array;
   if (Array.isArray(array) !== true) {
     return false;
-  } else {
+  }
     for (var i = 0; i < array.length; i++) {
       if (typeof array[i] !== 'number') {
         return false;
+      } else {
+        var swap;
+        do {
+          swap = false;
+          for (var y = 0; y < array.length; y++) {
+            if (array[y] > array[y + 1]) {
+              var curr = array[y];
+              array[y] = array[y + 1];
+              array[y + 1] = curr;
+              swap = true;
+            }
+          }
+        } while (swap === true);
+        return array;
       }
-        if (array[i] <= array[i + 1]) {
-        }
     }
-    return newArray;
-  }
 };
-console.log(module.exports([1, 5, 3, 7]));
