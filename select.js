@@ -25,4 +25,3 @@ function select (array) {
   return array;
 }
 module.exports = select;
-console.log(select([6, 18, 6, 34, 2, 6, 9, 56, 12]));
