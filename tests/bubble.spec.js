@@ -4,7 +4,7 @@ const chai = require('chai');
 const expect = chai.expect;
 const bubble = require('../bubble.js');
 
-describe('bubble', () => {
+describe('bubble sort', () => {
   it('should take in an array of numbers', () => {
     expect(bubble(undefined)).to.equal(false);
     expect(bubble(null)).to.equal(false);
