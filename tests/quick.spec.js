@@ -2,7 +2,7 @@
 
 const chai = require('chai');
 const expect = chai.expect;
-const quick = require('../quick.js');
+const quick = require('../js/quick.js');
 
 describe('quick sort', () => {
   it('should take in an array of numbers or number strings', () => {

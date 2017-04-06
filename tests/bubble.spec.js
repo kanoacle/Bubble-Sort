@@ -2,7 +2,7 @@
 
 const chai = require('chai');
 const expect = chai.expect;
-const bubble = require('../bubble.js');
+const bubble = require('../js/bubble.js');
 
 describe('bubble sort', () => {
   it('should take in an array of numbers', () => {

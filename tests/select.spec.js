@@ -2,7 +2,7 @@
 
 const chai = require('chai');
 const expect = chai.expect;
-const select = require('../select.js');
+const select = require('../js/select.js');
 
 describe('select sort', () => {
   it('should take in an array of numbers', () => {

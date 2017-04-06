@@ -2,7 +2,7 @@
 
 const chai = require('chai');
 const expect = chai.expect;
-const insert = require('../insert.js');
+const insert = require('../js/insert.js');
 
 describe('insert sort', () => {
   it('should take in an array of numbers', () => {
