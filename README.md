@@ -13,7 +13,7 @@ I've included a bit more about these algorithms below...
 
 5. Selection Sort - selection sort is an intermediate method that sorts a list by comparing the "minimum" value (this is initialized as the first item in the list) to the other values and swapping them if the "minimum" is greater than what it is being compared to. the minimum updates if this happens. This cycle repeats until the list is sorted.
 
-### My Work
+#### My Work
 
 To see my implementations, look in the "js" folder above this ReadMe. If you'd like to look at my test files, look in the "tests" folder. To see how I actually tested the algorithms, and run the tests in real time, fork and clone this repository to your local computer with your terminal, then navigate into the directory created for this repository.
 
