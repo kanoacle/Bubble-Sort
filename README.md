@@ -1,13 +1,13 @@
 # Sorting Algorithms
 
-#### This repository is home to my implementations of five simple sorting algorithms: Bubble Sort, Insertion Sort, Merge Sort, Quicksort, and Selection Sort.
+#### This repository is home to my implementations of five sorting algorithms: Bubble Sort, Insertion Sort, Merge Sort, Quicksort, and Selection Sort.
 
 I've included a bit more about these algorithms below...
 1. Bubble Sort - bubble sort is a relatively slow method of sorting that sorts a list by traversing the entire list and comparing adjacent values repeatedly until the entire list is sorted and the algorithm passes through the list without making any changes.
 
-2. Insertion Sort: https://en.wikipedia.org/wiki/Insertion_sort
+2. Insertion Sort - insertion sort is another simple sorting algorithm, but this one sorts your list by creating a new list and injecting the element of the original list currently under comparison into the new list where it sees best.
 
-3. Merge Sort: https://en.wikipedia.org/wiki/Merge_sort
+3. Merge Sort - merge sort was probably the toughest for me to implement, because it is the most complex. This sorting method sorts a list by splitting it into sub lists and creating a new list by comparing values in the sub lists.
 
 4. Quicksort: https://en.wikipedia.org/wiki/Quicksort
 
